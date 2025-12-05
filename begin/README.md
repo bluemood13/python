@@ -59,4 +59,79 @@ def add(x, y):
 fn = add
 print(fn(1,2))
 
+
+## 6️⃣ List Comprehensions (Python Superpower)
+
 ```
+Java (manual loop):
+
+List<Integer> nums = new ArrayList<>();
+for (int i = 0; i < 5; i++) nums.add(i);
+```
+
+```python
+nums = [i for i in range(5)]
+```
+
+## The Range of Python
+🟦 What is range() in Python?
+
+Think of range() like a virtual number generator.
+
+Java version:
+```java
+for (int i = 0; i < 10; i++) {
+    ...
+}
+```
+
+Python version uses range:
+
+```python
+for i in range(0, 10):
+    ...
+``` 
+
+🟩 Three ways to use range()
+
+1) range(stop)
+
+Starts at 0, stops before stop.
+
+```python
+range(5) → 0, 1, 2, 3, 4
+```
+
+Equivalent Java loop:
+```java
+for (int i = 0; i < 5; i++)
+```
+
+2) range(start, stop)
+
+Starts at start, ends before stop.
+
+```python
+range(2, 7) → 2, 3, 4, 5, 6
+```
+
+Java version:
+```java
+for (int i = 2; i < 7; i++)
+```
+
+3) range(start, stop, step)
+
+Adds a step (like i += step in Java).
+
+```python
+range(0, 10, 2) → 0, 2, 4, 6, 8
+```
+
+Java version:
+
+```java
+for (int i = 0; i < 10; i += 2)
+```
+
+
