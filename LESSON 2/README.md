@@ -41,3 +41,30 @@ print(a[1:4])   # 1,2,3
 print(a[:3])    # 0,1,2
 print(a[2:])    # 2,3,4
 ```
+
+## 🟨 5. Tuples (Java: immutable list)
+```python
+t = (1, 2, 3)
+```
+You cannot modify it. Used for fixed structure data.
+
+
+## 🟪 6. Sets (Java: HashSet)
+```python
+s = {1,2,3}
+s.add(4)
+```
+No duplicates, no order.
+
+## 🟫 7. Dictionaries (Java: HashMap)
+
+Key-value pairs:
+```python
+person = {
+    "name": "Alice",
+    "age": 20
+}
+
+print(person["name"])
+person["age"] = 21
+```
